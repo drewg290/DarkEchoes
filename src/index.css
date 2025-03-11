@@ -1,0 +1,58 @@
+html {
+  font-family: arial;
+  color: white;
+  background-color: black;
+}
+main {
+  display: grid;
+}
+
+ul {
+  list-style: none;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+li {
+  margin-top: 1%;
+  color: white;
+  background-color: black;
+  width: 30vw;
+  padding: 3%;
+  border-bottom: 1px solid gray;
+}
+li:hover {
+  background-color: gray;
+}
+
+li:last-child {
+  border-bottom: solid black;
+}
+
+@media (width > 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.details {
+  font-size: 15pt;
+  color: white;
+  background-color: black;
+  width: 55vw;
+}
+
+button {
+  width: 50vw;
+  font-size: 12pt;
+  height: 8vh;
+}
+h1 {
+  font-size: 40pt;
+  margin-bottom: 0;
+}
+
+#episodefont {
+  margin-top: 0;
+  font-size: 30pt;
+}
